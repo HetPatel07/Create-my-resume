@@ -1,0 +1,103 @@
+:root {
+    --first: #4619BC;
+    --second: #EBC655;
+}
+
+* {
+    font-family: varela round;
+}
+
+body {
+    background-color: #333;
+}
+
+.heading {
+    padding: 50px 0;
+    background-color: #4619BC;
+    display: inline-table;
+    color: #EBC655;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #EBC655;
+    margin: auto;
+    color: #4619BC;
+}
+
+.circle p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.heading h1 {
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.heading h3 {
+    font-size: 14px !important;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+
+/*profile part*/
+.profile {
+    background-color: #fff;
+    padding: 80px 100px;
+    color: #7E5DD0;
+}
+
+.profile h2 {
+    color: var(--first);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.profile .underline {
+    width: 30px;
+    height: 5px;
+    background-color: var(--second);
+    float: right;
+}
+
+.profile p {
+    font-size: 16px;
+}
+
+.profile p span {
+    color: var(--second);
+}
+.last-underline {
+    background-color: var(--first);
+    height: 20px;
+}
+
+/*EDIT PART*/
+.edit{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: var(--first);
+    padding: 10px 20px;
+    background-color: var(--second);
+    display: inline-block;
+    content: open-quote;
+}
+button{
+    border: 0;
+}
+
+
+
+
+
+
