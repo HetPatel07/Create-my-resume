@@ -110,4 +110,7 @@ button:hover {
     body {
         -webkit-print-color-adjust: exact;
     }
+    #right{
+        display: none;
+    }
 }
