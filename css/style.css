@@ -73,13 +73,14 @@ body {
 .profile p span {
     color: var(--second);
 }
+
 .last-underline {
     background-color: var(--first);
     height: 20px;
 }
 
 /*EDIT PART*/
-.edit{
+.edit {
     position: absolute;
     top: 40px;
     right: 40px;
@@ -91,13 +92,22 @@ body {
     background-color: var(--second);
     display: inline-block;
     content: open-quote;
+    transition: .2s all !important;
 }
-button{
+
+button {
     border: 0;
 }
 
+button:hover {
+    transform: translate(0, -2px);
+    transition: .2s all !important;
+    /*    box-shadow: 1px 1px 1px 1px #333;*/
+}
 
 
-
-
-
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
